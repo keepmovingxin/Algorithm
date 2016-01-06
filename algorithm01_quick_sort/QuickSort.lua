@@ -9,6 +9,10 @@ local dictionary = {
 }
 
 local function quickSortArray( arr,left,right )
+	if (#arr <= 0) then
+		print("input array error!")
+		return nil
+	end
 	if (left < right) then
 		local low = left -- 左边索引
 		local high = right -- 右边索引
