@@ -2,6 +2,7 @@
 -- Author: liu
 -- Date: 2015-12-31
 -- Purpose: 该文件用于: 实现并测试选择排序算法
+
 local array = {2,4,5,6,8,1,9,12,22,28,10,3}
 local dictionary = {
 	
